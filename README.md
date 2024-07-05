@@ -1,79 +1,52 @@
-# Flutter Weather App
+# Weather App
 
-## Overview
-
-This Flutter application allows users to check the weather for different cities. It integrates with the OpenWeatherMap API to fetch current weather data.
+## Description
+A weather application built with Flutter that integrates with the OpenWeatherMap API to display current weather conditions.
 
 ## Features
-
-- **Search by City**: Enter a city name to get the current weather information.
-- **View Weather Details**: Display temperature, weather condition, humidity, and wind speed.
-- **Persistent Data**: Stores the last searched city using SharedPreferences.
+- Fetches current weather data using OpenWeatherMap API.
+- Displays temperature, weather conditions, and location.
+- Responsive design for mobile and web.
 
 ## Screenshots
 
-Include screenshots or GIFs of your app in action (optional).
+1. ![Screenshot 1](image.png)
+2. ![Screenshot 2](image-1.png)
 
-## Technologies Used
 
-- **Flutter**: Flutter SDK for building the UI and managing state.
-- **Provider**: State management library for managing app state and data.
-- **HTTP**: Dart package for making HTTP requests to fetch weather data.
-- **SharedPreferences**: Dart package for persisting data locally.
-
-## Setup Instructions
-
-To run this project locally, follow these steps:
-
-1. **Clone the repository**:
+## Installation
+1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/your_repository.git
-   cd your_repository
+   git clone https://github.com/ganesh20060705/Weather_app.git
+   
+2. Navigate to the project directory:
+    cd Weather_app
 
-2.**Install dependencies**:
+3. Install the dependencies:
     flutter pub get
 
-3.**Update API Key**:
-
-Get an API key from OpenWeatherMap (if you haven't already).
-Update the apiKey variable in WeatherService.dart with your API key.
-
-4.**Run the app**:
+## Usage
+1.run the code:
     flutter run
 
-Contributing
+2.The app will launch on your connected device or emulator.
 
-Contributions are welcome! Here's how you can contribute to the project:
+## Configuration
+1. Obtain an API key from OpenWeatherMap.
+2. Create a .env file in the root directory and add your API key
+    OPENWEATHERMAP_API_KEY=your_api_key_here
 
-Fork the repository
-Make your changes
-Submit a pull request
+## Contributing
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Contributions are welcome! Please follow these steps:
 
-Acknowledgments
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/your-feature-name`).
+6. Create a new Pull Request.
 
-OpenWeatherMap API: Provides weather data for the app.
-Flutter community: For valuable packages and support.
+## Contact
 
-
-## Explanation:
-
-- **Overview**: Briefly describe what your Flutter app does and its main functionality.
-
-- **Features**: List the key features of your app that users can benefit from.
-
-- **Screenshots**: Optionally, include screenshots or GIFs showcasing your app's UI and functionality.
-
-- **Technologies Used**: Mention the main technologies, libraries, and packages used in your project.
-
-- **Setup Instructions**: Provide step-by-step instructions on how to clone, set up dependencies, and run the project locally. Include any specific configuration steps, such as updating API keys.
-
-- **Contributing**: Encourage others to contribute to your project and provide guidance on how they can do so.
-
-- **License**: Specify the license under which your project is distributed. In this example, it uses the MIT License.
-
-- **Acknowledgments**: Recognize any third-party libraries, APIs, or individuals who have contributed to or inspired your project.
-
-
+For questions or support, please contact [ganesh20060705](https://github.com/ganesh20060705).
